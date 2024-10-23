@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg ,rgb(202, 163, 163),rgba(96, 40, 130, 0.519),rgb(121, 183, 196));
+    overflow: hidden;
+}
+
+.calc{
+    display: flex;
+    position: absolute;
+    top:47px;
+    color:aliceblue;
+   font-weight: bold;
+    text-shadow: 0  0 20px rgb(137, 19, 201);
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgba(252, 252, 251, 0.175) ;
+   box-shadow: 2px 15px rgba(9, 3, 3, 0.508);
+}
+input{
+   height: 35px;
+   padding: 7px;
+   border-radius: 5px ;
+   border-width: thin;
+   box-shadow: 2px 5px black;
+}
+p{
+    padding-top: 40px;
+    font-size: 1.5rem;
+    color: rgb(186, 30, 210);
+}
+.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+ #enter{
+    width: 85px;
+    height: 35px;
+    font-size: 1.2rem;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 20px;
+    border-width: thin;
+   background-color: hsl(140, 72%, 56%);
+   box-shadow: 2px 5px black;
+   cursor: pointer;
+   
+}
+#reset{
+    width: 85px;
+    height: 35px;
+    font-size: 1.2rem;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 20px;
+    border-width: thin;
+   background-color: hsl(19, 72%, 56%);
+   box-shadow: 2px 5px black;
+   cursor: pointer;
+
+}
