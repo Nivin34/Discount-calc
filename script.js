@@ -20,8 +20,7 @@ enter.onclick  = function () {
 
     result = amount >= limit ? discount : 0;  
     let formula = amount - amount * (result/100);
-  
-    purchaseResult.textContent = ` Result: Your amount reduce after ${discount}% of discount to pay ₹ ${formula}`;
+    purchaseResult.textContent = ` Result: Your amount reduce after ${discount}% of discount to pay ₹ ${formula}/-`;
 
 }
 
